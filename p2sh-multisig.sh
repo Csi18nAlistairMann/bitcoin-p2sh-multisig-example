@@ -229,6 +229,8 @@ then
     echo "-----"
 fi
 
+# Also note https://github.com/Csi18nAlistairMann/bitcoin-p2sh-multisig-example/issues/1
+# where @bitcoinmonkey suggests using fundrawtransaction() in the code beneath. 
 #
 # Create a new transaction, slightly less value to accomodate mining fee
 RAW_TX=`$BITCOIN_CLI createrawtransaction '''
